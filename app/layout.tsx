@@ -70,7 +70,7 @@ export const metadata: Metadata = {
     description: APP_DESCRIPTION,
     site: "@geodevcodes",
     creator: "@geodevcodes",
-    images: ["/opengraph-image"],
+    images: [imageUrl],
   },
   robots: {
     index: true,
