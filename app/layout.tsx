@@ -13,12 +13,12 @@ const geistMono = Geist_Mono({
 });
 
 const imageUrl = `${process.env.NEXT_PUBLIC_APP_URL}/opengraph-image.png`;
-const APP_NAME = "geodevcodes";
+const APP_NAME = "Ar-Rashad Academy";
 const APP_DEFAULT_TITLE =
-  "Rasheed Olatunde - Software Developer | React & Next.js | React-Native (Expo) Expert";
-const APP_TITLE_TEMPLATE = "%s | geodevcodes";
+  "Ar-Rashad Academy - Islamic Learning App | Qur'an, Courses & Daily Duas";
+const APP_TITLE_TEMPLATE = "%s | Ar-Rashad Academy";
 const APP_DESCRIPTION =
-  "Experienced Software Developer with 4+ years of expertise in building high-performance web and mobile applications. Skilled in modern technologies and frameworks to deliver scalable, user-focused solutions. Known for strong leadership and the ability to simplify complex technical concepts for cross-functional teams.";
+  "Ar-Rashad Academy brings guided Islamic courses, the Qur'an, trusted reciters, and daily duas together in one app, so you can learn at your own pace, wherever you are. Available on iOS and Android.";
 
 export const metadata: Metadata = {
   applicationName: APP_NAME,
@@ -37,24 +37,21 @@ export const metadata: Metadata = {
     telephone: false,
   },
   keywords: [
-    "Rasheed Olatunde",
-    "GTWorld-Clone",
-    "geodevcodes",
-    "Software Developer",
-    "React Developer",
-    "Next.js Developer",
-    "Nest.js Developer",
-    "Web Developer",
-    "Mobile Developer",
-    "React-Native Developer",
-    "Full-Stack Developer",
-    "JavaScript",
-    "TypeScript",
-    "Frontend Development",
-    "Backend Development",
-    "Web Applications",
-    "Mobile Applications",
-    "Tech Blog",
+    "Ar-Rashad Academy",
+    "Islamic learning app",
+    "Quran app",
+    "Qur'an recitation",
+    "learn Quran online",
+    "Islamic courses",
+    "online Islamic education",
+    "daily duas",
+    "Muslim app",
+    "Deen app",
+    "Quran reciters",
+    "Islamic studies app",
+    "Muslim learning platform",
+    "Islamic app for iOS",
+    "Islamic app for Android",
   ],
   openGraph: {
     siteName: APP_NAME,
