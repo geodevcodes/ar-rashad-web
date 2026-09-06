@@ -92,6 +92,20 @@ export default function Showcase() {
           {/* Feature 1 */}
           <div className="text-center">
             <div className="flex justify-center mb-6">
+              <div className="text-5xl">🎓</div>
+            </div>
+            <h3 className="text-xl font-semibold text-gray-900 mb-3">
+              Guided Courses
+            </h3>
+            <p className="text-gray-600 leading-relaxed">
+              Learn from structured Islamic courses and a growing library, at a
+              pace that suits you.
+            </p>
+          </div>
+
+          {/* Feature 2 */}
+          <div className="text-center">
+            <div className="flex justify-center mb-6">
               <div className="text-5xl">📖</div>
             </div>
             <h3 className="text-xl font-semibold text-gray-900 mb-3">
@@ -103,7 +117,7 @@ export default function Showcase() {
             </p>
           </div>
 
-          {/* Feature 2 */}
+          {/* Feature 3 */}
           <div className="text-center">
             <div className="flex justify-center mb-6">
               <div className="text-5xl">🎧</div>
@@ -117,7 +131,7 @@ export default function Showcase() {
             </p>
           </div>
 
-          {/* Feature 3 */}
+          {/* Feature 4 */}
           <div className="text-center">
             <div className="flex justify-center mb-6">
               <div className="text-5xl">🤲</div>
@@ -128,20 +142,6 @@ export default function Showcase() {
             <p className="text-gray-600 leading-relaxed">
               Access authentic duas for every moment of your day, organized and
               easy to find.
-            </p>
-          </div>
-
-          {/* Feature 4 */}
-          <div className="text-center">
-            <div className="flex justify-center mb-6">
-              <div className="text-5xl">🎓</div>
-            </div>
-            <h3 className="text-xl font-semibold text-gray-900 mb-3">
-              Guided Courses
-            </h3>
-            <p className="text-gray-600 leading-relaxed">
-              Learn from structured Islamic courses and a growing library, at a
-              pace that suits you.
             </p>
           </div>
         </div>
