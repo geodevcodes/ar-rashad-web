@@ -14,14 +14,14 @@ export default function Showcase() {
                 src={"/brandlogo.png"}
                 width={100}
                 height={100}
-                alt="brandlogo image"
+                alt="Ar-rashad brandlogo image"
                 priority
                 className="w-full h-10 object-cover"
                 placeholder="blur"
                 blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mN8/PZxPQAIogM0nyRNiQAAAABJRU5ErkJggg=="
               />
             </div>
-            <span className="font-semibold text-gray-800">GTWorld-Clone</span>
+            <span className="font-semibold text-gray-800">Ar-rashad</span>
           </div>
           <div className="hidden md:flex gap-6 text-sm text-gray-600">
             <a href="#" className="hover:text-gray-800">

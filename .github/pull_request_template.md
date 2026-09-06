@@ -1,6 +1,6 @@
 ## Issue ticket number and link
 
-[gt-clone-#](https://github.com/geodevcodes/gtclone-demo/issues/{{NO}})
+[ar-rashad-web-#](https://github.com/geodevcodes/ar-rashad-web/issues/{{NO}})
 
 ## Describe your changes
 
