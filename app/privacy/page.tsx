@@ -30,17 +30,19 @@ export default function PrivacyPolicy() {
           <Link href="/" className="flex items-center gap-2">
             <div className="text-2xl">
               <Image
-                src={"/brandlogo.png"}
+                src="/brandlogo.png"
                 width={100}
-                height={100}
+                height={158}
                 alt="Ar-rashad brandlogo image"
                 priority
-                className="w-full h-10 object-cover"
+                className="h-12 w-auto"
                 placeholder="blur"
                 blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mN8/PZxPQAIogM0nyRNiQAAAABJRU5ErkJggg=="
               />
             </div>
-            <span className="font-semibold text-gray-800">Ar-rashad</span>
+            <span className="font-semibold text-gray-800">
+              Ar-rashad Academy
+            </span>
           </Link>
           <div className="hidden md:flex gap-6 text-sm text-gray-600">
             <Link href="/privacy" className="text-emerald-700 font-medium">
@@ -68,10 +70,10 @@ export default function PrivacyPolicy() {
         <p className="text-lg text-gray-600 leading-relaxed">
           Ar-Rashad is an Islamic learning app that gives you access to the
           Qur&apos;an, trusted reciters, daily duas, and guided courses. This
-          policy explains what information we collect when you use the
-          Ar-Rashad app, why we collect it, and the choices you have. We try
-          to keep this in plain language — if anything is unclear, reach out
-          using the contact details below.
+          policy explains what information we collect when you use the Ar-Rashad
+          app, why we collect it, and the choices you have. We try to keep this
+          in plain language — if anything is unclear, reach out using the
+          contact details below.
         </p>
       </section>
 
@@ -101,17 +103,17 @@ export default function PrivacyPolicy() {
         <div className="space-y-14">
           <PolicySection id="who-we-are" title="1. Who we are">
             <p>
-              Ar-Rashad (&quot;we&quot;, &quot;our&quot;, &quot;us&quot;) is
-              an Islamic learning platform available as a mobile app for iOS
-              and Android, developed and operated by Rasheed Olatunde
-              (geodevcodes). Ar-Rashad lets you read the Qur&apos;an, listen
-              to reciters, explore duas, and take structured Islamic courses
-              through our learning library.
+              Ar-Rashad (&quot;we&quot;, &quot;our&quot;, &quot;us&quot;) is an
+              Islamic learning platform available as a mobile app for iOS and
+              Android, developed and operated by Rasheed Olatunde (geodevcodes).
+              Ar-Rashad lets you read the Qur&apos;an, listen to reciters,
+              explore duas, and take structured Islamic courses through our
+              learning library.
             </p>
             <p>
-              This policy applies to the Ar-Rashad mobile app and this
-              website. It does not apply to third-party sites or services
-              that we link to but do not control.
+              This policy applies to the Ar-Rashad mobile app and this website.
+              It does not apply to third-party sites or services that we link to
+              but do not control.
             </p>
           </PolicySection>
 
@@ -121,58 +123,56 @@ export default function PrivacyPolicy() {
           >
             <p>
               We collect only what we need to run the app and improve your
-              learning experience. Depending on how you use Ar-Rashad, this
-              can include:
+              learning experience. Depending on how you use Ar-Rashad, this can
+              include:
             </p>
             <ul className="list-disc pl-5 space-y-2 marker:text-emerald-600">
               <li>
                 <span className="font-medium text-gray-800">
                   Account information —
                 </span>{" "}
-                your name, email address, and profile photo when you sign up
-                or sign in with email or Google. If you use social login, we
-                receive the basic profile details that provider shares with
-                us.
+                your name, email address, and profile photo when you sign up or
+                sign in with email or Google. If you use social login, we
+                receive the basic profile details that provider shares with us.
               </li>
               <li>
                 <span className="font-medium text-gray-800">
                   Learning activity —
                 </span>{" "}
-                your course progress, completed lessons, saved surahs and
-                duas, reciter preferences, and assessment results, so we can
-                let you pick up where you left off.
+                your course progress, completed lessons, saved surahs and duas,
+                reciter preferences, and assessment results, so we can let you
+                pick up where you left off.
               </li>
               <li>
                 <span className="font-medium text-gray-800">
                   Location data (optional) —
                 </span>{" "}
                 if you grant permission, we may use approximate or precise
-                location to personalize content such as local reminders. You
-                can use most of the app without granting this permission.
+                location to personalize content such as local reminders. You can
+                use most of the app without granting this permission.
               </li>
               <li>
                 <span className="font-medium text-gray-800">
                   Device and usage data —
                 </span>{" "}
                 device type, operating system, app version, crash logs, and
-                general usage patterns, collected automatically to help us
-                fix bugs and improve performance.
+                general usage patterns, collected automatically to help us fix
+                bugs and improve performance.
               </li>
               <li>
                 <span className="font-medium text-gray-800">
                   Payment information —
                 </span>{" "}
-                if you purchase a course or subscription, our payment
-                partner, Paystack, processes your card or bank details
-                directly. We never see or store your full card number.
+                if you purchase a course or subscription, our payment partner,
+                Paystack, processes your card or bank details directly. We never
+                see or store your full card number.
               </li>
               <li>
                 <span className="font-medium text-gray-800">
                   Notification data —
                 </span>{" "}
-                a device token used to send you reminders about your
-                recitation, duas, and course schedule, if you enable
-                notifications.
+                a device token used to send you reminders about your recitation,
+                duas, and course schedule, if you enable notifications.
               </li>
               <li>
                 <span className="font-medium text-gray-800">
@@ -186,10 +186,10 @@ export default function PrivacyPolicy() {
                 <span className="font-medium text-gray-800">
                   Advertising identifiers —
                 </span>{" "}
-                on iOS, we ask for permission (App Tracking Transparency)
-                before using your device&apos;s advertising identifier to
-                show more relevant ads. You can decline this at any time in
-                your device settings.
+                on iOS, we ask for permission (App Tracking Transparency) before
+                using your device&apos;s advertising identifier to show more
+                relevant ads. You can decline this at any time in your device
+                settings.
               </li>
             </ul>
           </PolicySection>
@@ -206,16 +206,14 @@ export default function PrivacyPolicy() {
                 activity across your devices.
               </li>
               <li>Process purchases and manage your subscription.</li>
-              <li>
-                Send reminders and updates you have opted in to receive.
-              </li>
+              <li>Send reminders and updates you have opted in to receive.</li>
               <li>
                 Diagnose crashes, fix bugs, and improve app performance and
                 content.
               </li>
               <li>
-                Personalize recommendations, such as courses or reciters you
-                may be interested in.
+                Personalize recommendations, such as courses or reciters you may
+                be interested in.
               </li>
               <li>Keep the app secure and prevent fraud or abuse.</li>
               <li>
@@ -234,17 +232,16 @@ export default function PrivacyPolicy() {
             title="4. Third-party services"
           >
             <p>
-              Ar-Rashad relies on a small number of trusted service providers
-              to operate reliably. These providers only receive the data
-              needed to perform their function:
+              Ar-Rashad relies on a small number of trusted service providers to
+              operate reliably. These providers only receive the data needed to
+              perform their function:
             </p>
             <ul className="list-disc pl-5 space-y-2 marker:text-emerald-600">
               <li>
                 <span className="font-medium text-gray-800">
                   Firebase (Google) —
                 </span>{" "}
-                push notifications, app infrastructure, and crash
-                diagnostics.
+                push notifications, app infrastructure, and crash diagnostics.
               </li>
               <li>
                 <span className="font-medium text-gray-800">
@@ -271,20 +268,22 @@ export default function PrivacyPolicy() {
             </p>
           </PolicySection>
 
-          <PolicySection id="data-retention" title="5. Data retention and deletion">
+          <PolicySection
+            id="data-retention"
+            title="5. Data retention and deletion"
+          >
             <p>
-              We keep your account and learning data for as long as your
-              account is active, so your progress and history remain
-              available to you. If you delete your account, we remove your
-              personal information and learning activity from our active
-              systems within 30 days, except where we are required to retain
-              certain records, such as payment records, for legal or
-              accounting purposes.
+              We keep your account and learning data for as long as your account
+              is active, so your progress and history remain available to you.
+              If you delete your account, we remove your personal information
+              and learning activity from our active systems within 30 days,
+              except where we are required to retain certain records, such as
+              payment records, for legal or accounting purposes.
             </p>
             <p>
-              You can request deletion of your account and data at any time
-              from within the app&apos;s profile settings, or by contacting
-              us directly.
+              You can request deletion of your account and data at any time from
+              within the app&apos;s profile settings, or by contacting us
+              directly.
             </p>
           </PolicySection>
 
@@ -292,22 +291,21 @@ export default function PrivacyPolicy() {
             <p>
               We use industry-standard safeguards, including encrypted
               connections (HTTPS/TLS) and access controls, to protect your
-              information. Payment details are handled entirely by our
-              payment processor and are never stored on our servers. No
-              method of transmission or storage is completely secure, but we
-              work to continuously improve how we protect your data.
+              information. Payment details are handled entirely by our payment
+              processor and are never stored on our servers. No method of
+              transmission or storage is completely secure, but we work to
+              continuously improve how we protect your data.
             </p>
           </PolicySection>
 
           <PolicySection id="childrens-privacy" title="7. Children's privacy">
             <p>
-              Ar-Rashad is intended for general audiences learning about
-              Islam, including younger learners under the guidance of a
-              parent or guardian. We do not knowingly collect personal
-              information from children without appropriate parental consent.
-              If you believe a child has provided us with personal
-              information without consent, please contact us and we will
-              remove it promptly.
+              Ar-Rashad is intended for general audiences learning about Islam,
+              including younger learners under the guidance of a parent or
+              guardian. We do not knowingly collect personal information from
+              children without appropriate parental consent. If you believe a
+              child has provided us with personal information without consent,
+              please contact us and we will remove it promptly.
             </p>
           </PolicySection>
 
@@ -319,8 +317,8 @@ export default function PrivacyPolicy() {
               <li>Request deletion of your account and associated data.</li>
               <li>
                 Withdraw consent for optional features such as location,
-                notifications, or advertising identifiers, at any time in
-                your device settings.
+                notifications, or advertising identifiers, at any time in your
+                device settings.
               </li>
               <li>Request a copy of your data in a portable format.</li>
             </ul>
@@ -332,18 +330,18 @@ export default function PrivacyPolicy() {
 
           <PolicySection id="changes" title="9. Changes to this policy">
             <p>
-              We may update this privacy policy from time to time as
-              Ar-Rashad evolves. If we make material changes, we will update
-              the &quot;Last updated&quot; date above and, where appropriate,
-              notify you in the app. Continued use of Ar-Rashad after changes
-              take effect means you accept the updated policy.
+              We may update this privacy policy from time to time as Ar-Rashad
+              evolves. If we make material changes, we will update the
+              &quot;Last updated&quot; date above and, where appropriate, notify
+              you in the app. Continued use of Ar-Rashad after changes take
+              effect means you accept the updated policy.
             </p>
           </PolicySection>
 
           <PolicySection id="contact" title="10. Contact">
             <p>
-              If you have questions about this privacy policy or how your
-              data is handled, reach out to us at{" "}
+              If you have questions about this privacy policy or how your data
+              is handled, reach out to us at{" "}
               <a
                 href="mailto:support@ar-rashad.app"
                 className="text-emerald-700 font-medium hover:underline"
@@ -390,9 +388,7 @@ function PolicySection({
   return (
     <div id={id} className="scroll-mt-24">
       <h2 className="text-2xl font-bold text-gray-900 mb-4">{title}</h2>
-      <div className="text-gray-600 leading-relaxed space-y-4">
-        {children}
-      </div>
+      <div className="text-gray-600 leading-relaxed space-y-4">{children}</div>
     </div>
   );
 }
