@@ -357,7 +357,7 @@ export default function PrivacyPolicy() {
       {/* Footer */}
       <footer className="px-4 md:px-8 py-12 border-t border-gray-200 max-w-5xl mx-auto">
         <div className="text-center">
-          <p className="text-sm text-gray-500 mb-4">© 2025 Ar-Rashad</p>
+          <p className="text-sm text-gray-500 mb-4">© 2026 Ar-Rashad Academy</p>
           <div className="flex justify-center gap-6 text-sm text-gray-600 mb-4">
             <Link href="/privacy" className="hover:text-gray-800">
               Privacy Policy
