@@ -27,7 +27,7 @@ export default function PrivacyPolicy() {
       {/* Navigation */}
       <nav className="fixed top-0 left-0 right-0 z-50 backdrop-blur-md bg-[#faf8f3]/80 border-b border-gray-200/50">
         <div className="px-4 py-4 md:px-8 flex items-center justify-between max-w-5xl mx-auto">
-          <Link href="/" className="flex items-center gap-2">
+          <Link href="/" className="flex items-center justify-center gap-2">
             <div className="text-2xl">
               <Image
                 src="/brandlogo.png"
