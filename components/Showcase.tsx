@@ -1,5 +1,3 @@
-import { BiLogoPlayStore } from "react-icons/bi";
-import { FaApple } from "react-icons/fa6";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -17,7 +15,7 @@ export default function Showcase() {
                 height={100}
                 alt="Ar-rashad brandlogo image"
                 priority
-                className="w-full h-12 object-cover"
+                className="w-full h-10 object-cover"
                 placeholder="blur"
                 blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mN8/PZxPQAIogM0nyRNiQAAAABJRU5ErkJggg=="
               />
@@ -55,15 +53,33 @@ export default function Showcase() {
               your own pace, wherever you are.
             </p>
 
-            <div className="flex flex-col sm:flex-row gap-4 mb-4">
-              <button className="cursor-pointer bg-black text-white px-6 py-3 rounded-lg flex items-center justify-center gap-2 hover:bg-gray-800 transition">
-                <FaApple size={20} />
-                Download for iOS
-              </button>
-              <button className="cursor-pointer bg-emerald-600 text-white px-6 py-3 rounded-lg flex items-center justify-center gap-2 hover:bg-emerald-700 transition">
-                <BiLogoPlayStore size={20} />
-                Get it on Google Play
-              </button>
+            <div className="flex flex-row flex-wrap items-center gap-4 mb-4">
+              <a
+                href="#"
+                aria-label="Download on the App Store"
+                className="inline-block h-13 transition hover:opacity-80"
+              >
+                <Image
+                  src="/appstore-badge.svg"
+                  alt="Download on the App Store"
+                  width={155}
+                  height={52}
+                  className="h-full w-auto"
+                />
+              </a>
+              <a
+                href="#"
+                aria-label="Get it on Google Play"
+                className="inline-block h-13 transition hover:opacity-80"
+              >
+                <Image
+                  src="/googleplay-badge.png"
+                  alt="Get it on Google Play"
+                  width={174}
+                  height={52}
+                  className="h-full w-auto"
+                />
+              </a>
             </div>
             <p className="text-sm text-gray-500">
               iOS & Android • Offline-friendly Recitations • Learn Anywhere
