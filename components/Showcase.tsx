@@ -71,8 +71,8 @@ export default function Showcase() {
 
           <div className="flex justify-center md:justify-end">
             <Image
-              src="/showcase1.png"
-              alt="GTWorld-Clone phone mockup"
+              src="/showcase/showcase1.png"
+              alt="Ar-rashad Academy phone mockup"
               width={250}
               height={250}
               className="w-full max-w-sm md:max-w-xs"
@@ -204,16 +204,16 @@ export default function Showcase() {
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
           {/* Screenshot placeholders */}
           {[
-            { label: "Accounts Dashboard", imageUrl: "/showcase1.png" },
-            { label: "Bill Payment", imageUrl: "/showcase2.png" },
-            { label: "Products", imageUrl: "/showcase3.png" },
-            { label: "Card Services", imageUrl: "/showcase1.png" },
+            { label: "Accounts Dashboard", imageUrl: "/showcase/showcase1.png" },
+            { label: "Bill Payment", imageUrl: "/showcase/showcase2.png" },
+            { label: "Products", imageUrl: "/showcase/showcase3.png" },
+            { label: "Card Services", imageUrl: "/showcase/showcase4.png" },
           ].map((screen, idx) => (
             <div key={idx} className="text-center">
               <div className="rounded-3xl lg:aspect-[9/19] mb-2 flex items-center justify-center">
                 <Image
                   src={screen.imageUrl}
-                  alt="gtbank-clone showcase image"
+                  alt="Ar-rashad Academy showcase image"
                   width={200}
                   height={200}
                   className="-full"
