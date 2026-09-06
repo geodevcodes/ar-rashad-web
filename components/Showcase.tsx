@@ -220,8 +220,8 @@ export default function Showcase() {
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
           {/* Screenshot placeholders */}
           {[
-            { label: "Home", imageUrl: "/showcase/showcase3.png" },
-            { label: "Course", imageUrl: "/showcase/showcase8.png" },
+            { label: "Onboarding", imageUrl: "/showcase/showcase3.png" },
+            { label: "Home", imageUrl: "/showcase/showcase8.png" },
             { label: "Explore Library", imageUrl: "/showcase/showcase7.png" },
             { label: "Learn", imageUrl: "/showcase/showcase4.png" },
           ].map((screen, idx) => (
