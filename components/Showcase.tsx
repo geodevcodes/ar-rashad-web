@@ -221,8 +221,8 @@ export default function Showcase() {
           {/* Screenshot placeholders */}
           {[
             { label: "Home", imageUrl: "/showcase/showcase3.png" },
-            { label: "Qur'an Reader", imageUrl: "/showcase/showcase8.png" },
-            { label: "Library", imageUrl: "/showcase/showcase7.png" },
+            { label: "Course", imageUrl: "/showcase/showcase8.png" },
+            { label: "Explore Library", imageUrl: "/showcase/showcase7.png" },
             { label: "Learn", imageUrl: "/showcase/showcase4.png" },
           ].map((screen, idx) => (
             <div key={idx} className="text-center">
