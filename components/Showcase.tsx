@@ -17,12 +17,12 @@ export default function Showcase() {
                 height={100}
                 alt="Ar-rashad brandlogo image"
                 priority
-                className="w-full h-10 object-cover"
+                className="w-full h-12 object-cover"
                 placeholder="blur"
                 blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mN8/PZxPQAIogM0nyRNiQAAAABJRU5ErkJggg=="
               />
             </div>
-            <span className="font-semibold text-gray-800">Ar-rashad</span>
+            <span className="font-semibold text-gray-800">Ar-rashad Academy</span>
           </div>
           <div className="hidden md:flex gap-6 text-sm text-gray-600">
             <Link href="/privacy" className="hover:text-gray-800">
