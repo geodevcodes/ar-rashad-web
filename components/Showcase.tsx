@@ -29,7 +29,7 @@ export default function Showcase() {
 
             <div className="flex flex-row flex-wrap items-center gap-4 mb-4">
               <a
-                href="https://play.google.com/apps/test/com.geodevcode.rashad/2"
+                href="https://play.google.com/apps/internaltest/4700814727800688543"
                 aria-label="Download on the App Store"
                 className="inline-block h-13 transition hover:opacity-80"
               >
@@ -42,7 +42,7 @@ export default function Showcase() {
                 />
               </a>
               <a
-                href="https://play.google.com/apps/test/com.geodevcode.rashad/2"
+                href="https://play.google.com/apps/internaltest/4700814727800688543"
                 aria-label="Get it on Google Play"
                 className="inline-block h-13 transition hover:opacity-80"
               >
