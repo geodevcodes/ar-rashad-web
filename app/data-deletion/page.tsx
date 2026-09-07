@@ -69,7 +69,7 @@ export default function DataDeletion() {
               there.
             </p>
             <a
-              href="mailto:support@ar-rashad.app?subject=Delete%20my%20Ar-Rashad%20account&body=Please%20delete%20my%20Ar-Rashad%20account%20and%20associated%20data.%0A%0AAccount%20email%3A%20"
+              href="mailto:olatunde336@gmail.com?subject=Delete%20my%20Ar-Rashad%20account&body=Please%20delete%20my%20Ar-Rashad%20account%20and%20associated%20data.%0A%0AAccount%20email%3A%20"
               className="inline-block bg-emerald-700 text-white font-medium px-5 py-2.5 rounded-lg hover:bg-emerald-800 transition"
             >
               Request data deletion
