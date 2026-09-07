@@ -7,8 +7,15 @@ export default function Showcase() {
       <section className="px-4 md:px-8 py-12 md:py-20 max-w-5xl mx-auto">
         <div className="grid md:grid-cols-2 gap-8 md:gap-12 lg:gap-16 items-center">
           <div>
-            <p className="text-sm text-gray-500 mb-4 uppercase tracking-wide">
-              📖 Islamic Learning • iOS & Android App
+            <p className="flex items-center gap-2 text-sm text-gray-500 mb-4 uppercase tracking-wide">
+              <Image
+                src="/quran.png"
+                alt="Quran icon"
+                width={20}
+                height={20}
+                className="h-5 w-5"
+              />
+              Islamic Learning • iOS & Android App
             </p>
             <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6 leading-tight">
               Read, learn, and grow in your deen every day.
@@ -75,7 +82,13 @@ export default function Showcase() {
           {/* Feature 1 */}
           <div className="text-center">
             <div className="flex justify-center mb-6">
-              <div className="text-5xl">🎓</div>
+              <Image
+                src="/prayertime.png"
+                alt="prayer time icon"
+                width={64}
+                height={64}
+                className="h-16 w-16"
+              />
             </div>
             <h3 className="text-xl font-semibold text-gray-900 mb-3">
               Guided Courses
@@ -89,7 +102,13 @@ export default function Showcase() {
           {/* Feature 2 */}
           <div className="text-center">
             <div className="flex justify-center mb-6">
-              <div className="text-5xl">📖</div>
+              <Image
+                src="/quran.png"
+                alt="Quran icon"
+                width={64}
+                height={64}
+                className="h-16 w-16"
+              />
             </div>
             <h3 className="text-xl font-semibold text-gray-900 mb-3">
               Qur&apos;an Reader
@@ -103,7 +122,13 @@ export default function Showcase() {
           {/* Feature 3 */}
           <div className="text-center">
             <div className="flex justify-center mb-6">
-              <div className="text-5xl">🎧</div>
+              <Image
+                src="/audio.png"
+                alt="Audio icon"
+                width={64}
+                height={64}
+                className="h-16 w-16"
+              />
             </div>
             <h3 className="text-xl font-semibold text-gray-900 mb-3">
               Trusted Reciters
@@ -117,7 +142,13 @@ export default function Showcase() {
           {/* Feature 4 */}
           <div className="text-center">
             <div className="flex justify-center mb-6">
-              <div className="text-5xl">🤲</div>
+              <Image
+                src="/praying.png"
+                alt="Prayer time icon"
+                width={64}
+                height={64}
+                className="h-16 w-16"
+              />
             </div>
             <h3 className="text-xl font-semibold text-gray-900 mb-3">
               Daily Duas
