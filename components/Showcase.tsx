@@ -1,39 +1,8 @@
 import Image from "next/image";
-import Link from "next/link";
 
 export default function Showcase() {
   return (
-    <div className="min-h-screen bg-[#faf8f3]">
-      {/* Navigation */}
-      <nav className="fixed top-0 left-0 right-0 z-50 backdrop-blur-md bg-[#faf8f3]/80 border-b border-gray-200/50">
-        <div className="px-4 py-4 md:px-8 flex items-center justify-between max-w-5xl mx-auto">
-          <div className="flex items-center justify-center gap-2">
-            <Image
-              src="/brandlogo.png"
-              width={100}
-              height={158}
-              alt="Ar-rashad brandlogo image"
-              priority
-              className="h-12 w-auto"
-              placeholder="blur"
-              blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mN8/PZxPQAIogM0nyRNiQAAAABJRU5ErkJggg=="
-            />
-            <span className="font-semibold text-gray-800">Ar-rashad Academy</span>
-          </div>
-          <div className="hidden md:flex gap-6 text-sm text-gray-600">
-            <Link href="/privacy" className="hover:text-gray-800">
-              Privacy Policy
-            </Link>
-            <a href="#" className="hover:text-gray-800">
-              Terms of Use
-            </a>
-          </div>
-        </div>
-      </nav>
-
-      {/* Spacer for fixed nav */}
-      <div className="h-20"></div>
-
+    <>
       {/* Hero Section */}
       <section className="px-4 md:px-8 py-12 md:py-20 max-w-5xl mx-auto">
         <div className="grid md:grid-cols-2 gap-8 md:gap-12 lg:gap-16 items-center">
@@ -253,25 +222,6 @@ export default function Showcase() {
           simple, distraction-free experience on the go.
         </p>
       </section>
-
-      {/* Footer */}
-      <footer className="px-4 md:px-8 py-12 border-t border-gray-200 max-w-5xl mx-auto">
-        <div className="text-center">
-          <p className="text-sm text-gray-500 mb-4">© 2026 Ar-Rashad Academy</p>
-          <div className="flex justify-center gap-6 text-sm text-gray-600 mb-4">
-            <Link href="/privacy" className="hover:text-gray-800">
-              Privacy Policy
-            </Link>
-            <span className="text-gray-400">•</span>
-            <a href="#" className="hover:text-gray-800">
-              Terms of Use
-            </a>
-          </div>
-          <p className="text-sm text-gray-500">
-            Made with 💚 by Rasheed Olatunde
-          </p>
-        </div>
-      </footer>
-    </div>
+    </>
   );
 }
